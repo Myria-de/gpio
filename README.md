@@ -5,4 +5,4 @@ Auf dem Raspberry Pi sind mehrere Schnittstellen untergebracht, die eine Kommuni
 
 **Beispiele:**
 
-gpio-led.py Seite 78: LED ein/aus-Schalten gpio-led.py
+gpio-led.py Seite 78: LED ein/ausschalten
