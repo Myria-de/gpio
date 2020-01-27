@@ -11,6 +11,23 @@ Auf dem Raspberry Pi sind mehrere Schnittstellen untergebracht, die eine Kommuni
 
 **gettemp_console.py** Seite 81: Temperatur messen (DS18B20)
 
-**gettemp_db.py** Seite 81: Temperatur messen (DS18B20) und Werte in Datenbank speichern
+**gettemp_db.py** Seite 81: Temperatur messen (DS18B20) und Werte in Datenbank speichern (siehe Anleitung in der py-Datei)
 
 **relay.py** Seite 81: Relais schalten
+
+**Zusätzliches Beispiel: DHT11**
+
+**dht11.py** Seite 81: Temperatur und Feuchtigkeit messen
+
+DHT11 ist eine Sensor für Luftfeuchtigkeit und Temperatur. Das Bauteil alleine kostet etwa 2 Euro, Module gibt es teilweise zum gleichen Preis. Das Modul hat den Vorteil, das hier in der Regel bereits ein Widerstand mit 4,7kΩ aufgelötet ist, den Sie ansonsten auf dem Steckbrett zwischen der Spannungsversorgung mit 3,3 Volt und der Datenleitung einbauen müssen. Der Widerstand dient neben der Stromversorgung auch zur Verbesserung der Messergebnisse.
+
+Ein DHT11-Modul besitzt drei Pins von denen einer mit „S“ beschriftet ist. Diesen verbinden Sie mit GPIO 4, der mittlere („+“) wird mit dem 3,3-Volt-Pin verbunden und der auf der rechten Seite („-“) mit GND.
+
+Für den Sensor benötigen Sie eine zusätzliche Programmbibliothek. Den Quellcode laden Sie mit 
+```
+git clone https://github.com/Myria-de/Python_DHT.git
+```
+herunter, für die Installation verwenden Sie 
+```
+sudo python3 setup.py install
+```
