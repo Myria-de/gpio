@@ -5,4 +5,12 @@ Auf dem Raspberry Pi sind mehrere Schnittstellen untergebracht, die eine Kommuni
 
 **Beispiele:**
 
-gpio-led.py Seite 78: LED ein/ausschalten
+**gpio-led.py** Seite 78: LED ein/ausschalten
+
+**led.py** Seite 79: LED mit Taster ein/ausschalten
+
+**gettemp_console.py** Seite 81: Temperatur messen (DS18B20)
+
+**gettemp_db.py** Seite 81: Temperatur messen (DS18B20) und Werte in Datenbank speichern
+
+**relay.py** Seite 81: Relais schalten
