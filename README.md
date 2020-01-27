@@ -133,3 +133,6 @@ python3 [Pfad/Skriptname]
 ```
 sudo apt-get install python3-tk python-pmw python3-pil
 ```
+
+![GUI für Python: Die GPIO-Pins lassen sich über Python und eine grafische Oberfläche seteuern (TK)](https://www.myria.de/dfiles/github/502_10_LED_GUI.png)
+_GUI für Python: Die GPIO-Pins lassen sich über Python und eine grafische Oberfläche seteuern (TK)_
