@@ -15,6 +15,8 @@ Auf dem Raspberry Pi sind mehrere Schnittstellen untergebracht, die eine Kommuni
 
 **relay.py** Seite 81: Relais schalten
 
+**LED-GUI.py** Seite 81 (Kasten): LED über grafische Oberfläche steuern
+
 **Zusätzliches Beispiel: DHT11**
 
 **dht11.py** Seite 81: Temperatur und Feuchtigkeit messen
@@ -30,4 +32,104 @@ git clone https://github.com/Myria-de/Python_DHT.git
 herunter, für die Installation verwenden Sie 
 ```
 sudo python3 setup.py install
+```
+
+# Python: Ein erster Eindruck
+
+**Seite 78**
+
+```
+print('Hello World')
+```
+
+```
+MeinName = 'Sepp'
+print('Mein Name ist: ' + MeinName)
+```
+
+```
+zahl1 = 2
+zahl2 = 4
+ergebnis = zahl1 + zahl2
+print(str(ergebnis))
+```
+**Seite 79**
+```
+MeineListe = [2, 7, 8, 'red', 'blue']
+print(MeineListe)
+print(MeineListe[2])
+```
+
+```
+MeineListe = []
+MeineListe.append('red')
+print(MeineListe)
+```
+
+```
+MeinString = "Hello World"
+print(MeinString[0])
+print(MeinString[6:11])
+```
+
+```
+print(MeinString[6:])
+```
+
+```
+MeinString = "Hello World"
+print(MeinString.replace('World','Universe'))
+```
+
+```
+zahl = 11
+if(zahl > 10):
+    print('Wert ist größer 10')
+    print('Das ist viel')
+else:
+    print('Wert ist kleiner oder gleich 10')
+```
+
+**Seite 80**
+```
+def add(a,b):
+    print ('Addiere: ' + str(a) +' und ' + str(b))
+    return a + b
+print ('Ergebnis: ' + str(add(2,3)))
+```
+
+```
+x=1
+while x < 6:
+    print(x)
+    x += 1
+```
+**Seite 81**
+```
+colors = ['red', 'blue', 'green']
+for x in colors:
+    print(x)
+```
+```
+import os
+home=os.path.expanduser('~')
+os.chdir(home)
+files=os.system('ls -l')
+print(files)
+```
+
+```
+python3 [Pfad/Skriptname]
+```
+
+```
+#!/usr/bin/python3
+```
+
+```
+./[Pfad/Skriptname]
+```
+**Grafische Oberfläche für Skripts**
+```
+sudo apt-get install python3-tk python-pmw python3-pil
 ```
