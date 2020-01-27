@@ -3,6 +3,12 @@ Hier finden Sie alle Programmierbeispiele, Befehlszeilen und Schaltpläne zum Ar
 
 Auf dem Raspberry Pi sind mehrere Schnittstellen untergebracht, die eine Kommunikation mit der Außenwelt ermöglichen. Eine der wichtigsten davon ist die frei programmierbare GPIO (General Purpose Input/Output). Darüber lassen sich LEDs oder Relais steuern sowie Messwerte von Sensoren abfragen. Mit ein paar zusätzlichen Bauteilen wird aus dem Raspberry Pi ein Lehr- und Lerncomputer, der in die Welt der Elektronik und zugleich in die Programmierung einführt. Das eignet sich auch für Kinder und Jugendliche ab etwa 12 Jahren (mit Begleitung durch Erwachsene).
 
+**Bestückung und Schaltpläne**
+
+Sie finden die Dateiem im Ordner "Fritzing".
+
+Die fzz-Dateien lassen sich mit dem Tool Fritzing öffnen und bearbeiten. Sie Software ist Open-Source, der Quellcode ist unter https://github.com/fritzing/fritzing-app verfügbar. Das kompilierte Programm gibt es bei https://fritzing.org/download/. Die Entwickler verlangen vor dem Download 8 oder 25 Euro als Spende.
+
 **Beispiele:**
 
 **gpio-led.py** Seite 78: LED ein/ausschalten
