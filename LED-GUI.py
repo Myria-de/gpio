@@ -1,5 +1,12 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+# Grafische Oberfläche für Scripts
+# Seite 81
+#
+# Voraussetzung:
+# sudo apt-get install python3-tk python-pmw python3-pil
+#
+
 from tkinter import *
 from gpiozero import LED
 from PIL import Image, ImageTk
